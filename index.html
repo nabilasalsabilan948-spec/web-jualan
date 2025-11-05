@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Federant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Federant&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .font-r1{
+        font-family: "Roboto Mono", monospace;
+    }
+    .font-r2{
+          font-family: "Libre Baskerville", serif;
+    }
+</style>
+<body class="bg-amber-300">
+    <nav class="sticky top-0 z-50 bg-red-800/90 backdrop-blur border-b border-white py-2" aria-label="primry">
+        <div class="container mx-auto flex items-cente justify-between py-2">
+            <a href="#" class="w-25"><img src="logo pempek-1.png" alt=""></a>
+            <div class="hidden md:inline space-x-10 font-semibold py-8">
+                <a class= "text-white hover:text-yellow-300" href="#">Home</a>
+                <a class="text-white hover:text-yellow-300" href="#">Menu</a>
+                <a class="text-white hover:text-yellow-300" href="#">About</a>
+                <a class="text-white hover:text-yellow-300" href="#">Review</a>
+            </div>
+            <button class="hidden md:inline px-5 py-3 m-5 rounded-xl bg-[#FF3F33] text-white font-semibold hover:bg-yellow-400 hover:text-red-800 transition">Contact CS</button>
+        </div>
+    </nav>
+
+    <!-- halaman pertama -->
+    <section class=" px-6 container mx-auto md:flex md:justify-between items-center my-6 space-x-6">
+        <div class="md:w-3/6 text-center md:text-left mb-5">
+            <h4 class="text-xl w-6/9 text-red-900 font-r1">selamat datang</h4>
+            <h3 class=" text-red-800 text-6xl font-bold mb-4">DAPUR LUBUK LINGGAU</h3>
+            <p class="text-red-900 mb-4">Laper? mampir kuy harga murah bikin kenyang pula... <br> yuk buruan di order</p>
+            <button class="px-4 py-2 m-1 rounded-3xl bg-[#FF3F33] text-white font-semibold hover:bg-yellow-400 hover:text-red-800 transition">Order now</button>
+             <button class="px-4 py-2 m-1 rounded-3xl bg-[#FF3F33] text-white font-semibold hover:bg-yellow-400 hover:text-red-800 transition">Contact CS</button>
+
+        </div>
+        <img class="md:w-1/2" src="halaman depan fotoo.png">
+    </section>
+
+    <!-- menu makanan -->
+    <section class="bg-red-900 mx-auto p-10 my-5 text-center">
+        <h4 class="text-2xl font-bold text-amber-300">PRICE</h4>
+        <h3 class="text-3xl font-bold mb-5 font-r2 text-amber-400">Menu dapur linggau</h3>
+        <div class="md:flex md:justify-between mt-20 space-x-8">
+            <!-- menu 1 -->
+            <div class="bg-amber-400 text-red-900 md:w-1/3 rounded-md border border-gray-300">
+                <img class="w-20 rounded-full mx-auto -mt-8" src="pempek paketan.jpg">
+            <h5 class="font-bold pt-3 mb-1">pempek paketan <br> 20k-60k </h5>
+            <p class="text-red-900 p-3">pempek dengan isi 5, yaitu 2 pempek kapal selam dan 3 pempek lenjer dengan cuko yang sedap dan timun yang segar, kami juga menyediakan versi yang paketan besar dengan isi 12 pcs.</p>
+            </div>
+            <!-- menu 2 -->
+            <div class="hidden md:inline bg-amber-400 text-red-900 w-1/3 rounded-md border border-gray-300">
+                <img class="w-20 rounded-full mx-auto -mt-8" src="pempek-satu-telur.jpg">
+            <h5 class="font-bold pt-3 mb-1">pempek satu telur <br> 20k-57k</h5>
+            <p class="text-red-900 p-3">pempek besar satu telur isi 1, dengan cuko yang sedap dan timun yang segar, kami juga menyediakan versi besar isi 5 </p>
+            </div>
+        <!-- menu 3 -->
+            <div class="hidden md:inline bg-amber-400 text-red-900 w-1/3 rounded-md border border-gray-300">
+                <img class="w-20 rounded-full mx-auto -mt-8" src="pempek-kulit-crispy.jpg">
+            <h5 class="font-bold pt-3 mb-1">pempek crispy <br> 18k-40k</h5>
+            <p class="text-red-900 p-3">pempek crispy isi 5, dengan cuko yang sedap dan timun yang segar, kami juga menyediakan versi besar isi 12 </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- terakhir -->
+     <section class="container mx-auto space-x-6 md:flex md:justify-between items-center">
+        <img src="1-removebg-preview (2).png" class="md:w-3/6 max-auto" alt="">
+            <div class="md:w-3/6 text-center md:text-left">
+                <h4 class="text-xl font-bold text-red-900">About</h4>
+                <h3 class="text-3xl font-semibold text-red-900 mb-5 ">Pempek lubuk linggau</h3>
+                <p class="text-red-900">pempek lubuk linggau terbangun dari tahun 2020, berawal dari membuka po lewat whatsapp banyak penggemar pempek kami dan akhirnya kami mengembangkan lewat marketplace alhamdulillah pempek kita selalu laku dan banyak sekali penggemarnya dari anak remaja sampai orang tua, dan paling terkenal adalah cuko kami yang sangat lezat dan enak bikin semua orang ketagihan.</p>
+                <div class="flex justify-between py-6 max-w-80 mx-auto">
+                    <!-- rating -->
+                    <div class="text-center text-red-900">
+                        <h4 class="text-2xl font-bold text-red-900">4.5</h4>
+                        <p>Rating</p>
+                    </div>
+                    <!-- review -->
+                    <div class="text-center text-red-900">
+                        <h4 class="text-2xl font-bold text-red-900">1k+</h4>
+                        <p>review</p>
+                    </div>
+                    <!-- like -->
+                    <div class="text-center text-red-900">
+                        <h4 class="text-2xl font-bold text-red-900">4k+</h4>
+                        <p>pembeli</p>
+                    </div>
+                </div>
+            </div>
+     </section>
+     <!-- footer -->
+      <div class="bg-red-900 w-full p-5 mt-3 flex flex-col items-center">
+        <h1 class="font-bold text-amber-400 text-3xl mb-4">Dapur Lubuk Linggau</h1>
+        <p class="text-amber-400">Cibubur,Pondok Ranggon,Jakarta Timur</p>
+        <p class="text-amber-400">IG: dapur_lubuklinggau</p>
+        <p class="text-amber-400">Email: pempeklubuklinggau@gmail.com</p>
+      </div>
+      <div class="bg-red-950 p-2 w-full flex flex-col items-center">
+        <p class="text-white font-light">@nabilasalsabila_hakmilik</p>
+      </div>
